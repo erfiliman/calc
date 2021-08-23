@@ -1,0 +1,17 @@
+.h {
+	font-weight: bold;
+	color: #FFFFFF;
+	transition: all 0.2s ease-in;
+}
+
+.m {
+	font-size: 44px;
+	line-height: 60px;
+	min-height: 60px;
+}
+
+.s {
+	font-size: 12px;
+	min-height: 15px;
+	color: #bcadc5;
+}

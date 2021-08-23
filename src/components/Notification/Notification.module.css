@@ -1,0 +1,20 @@
+.notification {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	display: block;
+	font-size: 14px;
+	padding: 20px 40px;
+	background-color: #200c32;
+	color: rgb(181, 163, 197);
+	border-radius: 15px;
+	box-shadow: 0px 11px 20px 0px #00000078;
+	transition: all 0.2s ease-in;
+	opacity: 0;
+	transform: translateY(-200px);
+}
+
+.active {
+	transform: translateY(0);
+	opacity: 1;
+}

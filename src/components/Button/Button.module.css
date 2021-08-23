@@ -1,0 +1,51 @@
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin: 0 auto;
+
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	outline: none;
+	border: none;
+	box-shadow: 5px 5px 20px 0px #200c32ad;
+	transition: all 0.2s ease-in;
+	cursor: pointer;
+}
+
+.button:hover {
+	transform: scale(1.02);
+}
+
+.grey {
+	background-color: rgb(125, 81, 157);
+}
+
+.grey:hover {
+	background-color: rgb(129, 67, 161);
+}
+
+.white {
+	background-color: rgb(160, 134, 170);
+}
+
+.white:hover {
+	background-color: rgb(200, 162, 203);
+}
+
+.purple {
+	background-color: #200c32;
+}
+
+.l {
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 6;
+	border-radius: 30px;
+	height: auto;
+}

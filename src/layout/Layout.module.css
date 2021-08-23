@@ -1,0 +1,109 @@
+.container {
+	margin: 0 auto;
+}
+
+.numbers {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 30px;
+	gap: 15px;
+	margin: 0 60px;
+	background: rgb(88,19,145);
+	background: linear-gradient(326deg, rgba(88,19,145,1) 0%, rgba(55,12,67,1) 100%);
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	box-shadow: 11px 13px 20px 2px #200c32ad;
+	z-index: 1;
+	position: relative;
+}
+
+.result {
+	background-color: #200c32;
+	border-radius: 15px;
+	padding: 15px 30px 30px 30px;
+	box-shadow: 11px 13px 20px 2px #200c32ad;
+	min-height: 175px;
+	z-index: 2;
+	position: relative;
+}
+
+.resultTopPanel {
+	display: flex;
+	justify-content: space-between;
+}
+
+.resultPanel {
+	padding: 60px 0px 0 0px;
+	text-align: right;
+}
+
+.currentResult {
+	cursor: pointer;
+	display: flex;
+	transition: all 0.2s ease-in;
+	max-width: 405px;
+	overflow-x: auto;
+	margin: 0 auto;
+}
+
+.currentResult::-webkit-scrollbar {
+	width: .5em;
+	height: .5em;
+	border-radius: 5px;
+}
+
+.currentResult::-webkit-scrollbar-thumb {
+	background: #8526e3;
+	border-radius: 5px;
+}
+
+.currentResult::-webkit-scrollbar-track {
+	background: #b59ff3;
+	border-radius: 5px;
+}
+
+.currentResult>h1 {
+	margin-left: auto;
+}
+
+.currentResult>h1:hover {
+	color: #adadad;
+}
+
+.expression{
+
+}
+
+.expression>h2 {
+	cursor: default;
+}
+
+.history {
+	text-align: right;
+	padding: 20px;
+}
+
+.historyItem {
+	color: #bcadc5;
+	cursor: pointer;
+	transition: all 0.2s ease-in;
+	transform: scale(1);
+}
+
+.historyItem:hover {
+	transform: scale(1.05);
+}
+
+.historyBtn {
+	background-image: url("./../img/history.svg");
+	display: block;
+	width: 15px;
+	height: 15px;
+	background-size: contain;
+	cursor: pointer;
+	transition: all 0.2s ease-in;
+}
+
+.historyBtn:hover {
+	transform: scale(1.05);
+}
